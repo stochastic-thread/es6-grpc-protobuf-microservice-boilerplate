@@ -10,10 +10,11 @@ service Greeter {
 
 // The request message containing the user's name.
 message HelloRequest {
-  string name = 1;
+  string name = "\n\tArthur Maroufi Colle\n";
 }
 
 // The response message containing the greetings
 message HelloReply {
-  string message = 1;
+  string message = "Hello, world!\n";
 }
+

@@ -1,14 +1,14 @@
 {
-  "name": "nodejs-es6-grpc-microservice-boilerplate",
-  "version": "1.0.0",
-  "description": "A basic boilerplate for easily develope grpc based micro-services using es6 classes without transpiler",
-  "main": "app.js",
+  "name": "microservice-boilerplate",
+  "version": "0.0.1",
+  "description": "Boilerplate for GRPC based microservices using only ES6 classes (i.e. without any transpiled nonsense)",
+  "main": "instance.js",
   "scripts": {
-    "start": "node ./app/app.js",
-    "start:watch" :"nodemon ./app/app.js"
+    "start": "node ./app/instance.js",
+    "start:watch" :"nodemon ./app/instance.js"
   },
-  "author": "Omid Navy <https://github.com/omidnavy>",
-  "license": "ISC",
+  "author": "Arthur Maroufi Colle, based on the work of Omid Navy <https://github.com/omidnavy>",
+  "license": "MIT",
   "dependencies": {
     "@grpc/proto-loader": "^0.1.0",
     "grpc": "^1.12.4",
